@@ -21,6 +21,7 @@ require_once('AWSSDKforPHP/services/ses.class.php');
 */
 
 
+require_once('PHPMailerLite.class.php')
 class AmazonSESMailer extends PHPMailerLite {
 
 	public $AWSAccessKeyId;
