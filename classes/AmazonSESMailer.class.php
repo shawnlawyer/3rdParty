@@ -1,4 +1,6 @@
 <?php
+require_once('AWSSDKforPHP/sdk.class.php');
+require_once('AWSSDKforPHP/services/ses.class.php');
 /*
 .---------------------------------------------------------------------------.
 |  Software: Amazon SES Mailer - PHP email class for Amazon SES             |
